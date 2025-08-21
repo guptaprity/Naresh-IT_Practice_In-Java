@@ -2,17 +2,32 @@ Student Fee Management System
 A simple Java project (com.prity.FeeManagement) demonstrating OOP concepts: Inheritance, Method Overriding, Encapsulation, and Polymorphism. 
 
 
-📌 Classes
+##📌 Classes
+
 Student (Base Class): studentId, name, examFee, payFee()
+
 DayScholar (Subclass): + transportFee, overrides payFee()
+
 Hosteller (Subclass): + hostelFee, overrides payFee()
+
 StudentFeesCalculation: main class with switch-case & Scanner
+
 🚀 How to Run
+
 Clone repo & open in Eclipse/IntelliJ/VS Code
+
 Run StudentFeesCalculation.java
+
 Enter student details → get balance / refund / payable
+
 ✅ Example
-You have selected Hosteller!!! Enter Student Id : 101 Enter Student Name : Prity Enter Exam Fees : 5000 Enter Hostel Fee : 90000 Enter your total Fees : 100000 Refundable Amount is : -5000.0
+You have selected Hosteller!!!
+Enter Student Id :
+101 Enter Student Name : 
+Prity Enter Exam Fees : 
+5000 Enter Hostel Fee :
+90000 Enter your total Fees : 
+100000 Refundable Amount is : -5000.0
 
 
 
