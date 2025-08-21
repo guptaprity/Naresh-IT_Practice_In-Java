@@ -43,4 +43,42 @@ git clone https://github.com/your-username/Naresh-IT_Java_Practice.git
 Sample Output 
 <img width="1693" height="967" alt="image" src="https://github.com/user-attachments/assets/17836fba-dbbc-4c0b-b2bf-85cf2d8a5c02" />
 
+# Student Fee Management System
+
+A simple Java project (`com.prity.FeeManagement`) demonstrating **OOP concepts**: Inheritance, Method Overriding, Encapsulation, and Polymorphism.
+📂 GitHub Folder: `Naresh-IT_Java_Practice/OOP/Method_Overriding/`
+
+## 📌 Classes
+- **Student (Base Class):** studentId, name, examFee, payFee()  
+- **DayScholar (Subclass):** + transportFee, overrides payFee()  
+- **Hosteller (Subclass):** + hostelFee, overrides payFee()  
+- **StudentFeesCalculation:** main class with switch-case & Scanner  
+
+## 🚀 How to Run
+1. Clone repo & open in Eclipse/IntelliJ/VS Code  
+2. Run `StudentFeesCalculation.java`  
+3. Enter student details → get balance / refund / payable  
+
+## ✅ Example
+You have selected Hosteller!!!
+Enter Student Id : 101
+Enter Student Name : Prity
+Enter Exam Fees : 5000
+Enter Hostel Fee : 90000
+Enter your total Fees : 100000
+Refundable Amount is : -5000.0
+
+markdown
+Copy
+Edit
+
+## 📚 Concepts Used
+- Inheritance  
+- Method Overriding  
+- Encapsulation  
+- Polymorphism
+
+  <img width="1917" height="947" alt="image" src="https://github.com/user-attachments/assets/79312cab-0fcd-4c91-b710-9770e1fdb692" />
+
+
 
