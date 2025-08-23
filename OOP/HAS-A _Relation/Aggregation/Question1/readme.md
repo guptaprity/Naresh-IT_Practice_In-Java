@@ -28,12 +28,15 @@ Aggregation represents a relationship where one class contains a reference to an
 ## 🛠 Project Structure
 
 src/com/prity/aggregation/
+
 │
 ├── Aggregation.java # Main class (execution starts here)
+
 ├── College.java # Represents College entity
+
 └── Student.java # Represents Student entity (HAS-A College)
 
-🛠 Tools & Technologies Used
+###🛠 Tools & Technologies Used
 
 Programming Language: Java
 
