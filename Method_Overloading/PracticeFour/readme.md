@@ -8,7 +8,8 @@ The project validates inputs, masks sensitive card details, and shows how differ
 ## 📌 Features
 - **Cash Payment** – validates positive amount  
 - **Credit Card Payment** – validates card number (16 digits) + amount  
-- **Debit Card Payment** – validates card number (16 digits) + amount  
+- **Debit Card Payment** – validates card number (16 digits) + amount
+  
 - **Helper Methods**:
   - `validateAmount(double)` → ensures amount > 0  
   - `validateCardNumber(String)` → ensures 16-digit card  
