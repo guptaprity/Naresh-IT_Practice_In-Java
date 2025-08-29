@@ -18,12 +18,17 @@ The project validates inputs, masks sensitive card details, and shows how differ
 
 ## 🛠️ Technologies Used
 - **Java SE**
+  
 - **Scanner Class** (for user input)
+  
 - **Method Overloading**
+  
 - **Encapsulation (Helper Methods with `private`)**
 
 ---
+
 ## 📖 Sample Output
+
 ✅ Test Case 1 – Cash Payment
 
 Payment Menu
