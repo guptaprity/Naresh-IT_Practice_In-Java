@@ -70,7 +70,7 @@ Enter your Payment Amount :
 
 12000
 
-Processing payment via Credit Card...
+Processing payment via Credit Card..
 
 Card Holder: RaviShankar
 
