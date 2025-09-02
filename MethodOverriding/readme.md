@@ -53,14 +53,16 @@ Designing a menu-driven console application
 - **Scanner** for user input
 
 ### ✅ Case 1: Full-Time Employee
-<img width="396" height="306" alt="image" src="https://github.com/user-attachments/assets/99f1d69f-0838-48bc-9a2a-df207ba842dc" />
+<img width="442" height="265" alt="image" src="https://github.com/user-attachments/assets/a9a87042-fab3-42ca-a6e2-812c92cb030c" />
+
 
 
 ### ✅ Case 2: Part-Time Employee
-<img width="541" height="357" alt="image" src="https://github.com/user-attachments/assets/9df2a0f9-9767-4751-bad7-785632a6c13d" />
+<img width="503" height="330" alt="image" src="https://github.com/user-attachments/assets/dc7e1e0c-18ee-48d0-9cba-0404b6d30c49" />
 
 ### ✅ Case 3: Part-Time Employee
-<img width="427" height="206" alt="image" src="https://github.com/user-attachments/assets/a53f5c75-8ec5-40a4-80bb-bbbaead40fc2" />
+<img width="522" height="308" alt="image" src="https://github.com/user-attachments/assets/7ad5acec-65ad-4861-aa36-4f6ae29baa72" />
+
 
 
 
