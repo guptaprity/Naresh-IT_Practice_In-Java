@@ -52,5 +52,16 @@ Designing a menu-driven console application
 - **OOP Concepts**: Inheritance, Method Overriding, Encapsulation
 - **Scanner** for user input
 
+### ✅ Case 1: Full-Time Employee
+<img width="396" height="306" alt="image" src="https://github.com/user-attachments/assets/99f1d69f-0838-48bc-9a2a-df207ba842dc" />
+
+
+### ✅ Case 2: Part-Time Employee
+<img width="541" height="357" alt="image" src="https://github.com/user-attachments/assets/9df2a0f9-9767-4751-bad7-785632a6c13d" />
+
+### ✅ Case 3: Part-Time Employee
+<img width="427" height="206" alt="image" src="https://github.com/user-attachments/assets/a53f5c75-8ec5-40a4-80bb-bbbaead40fc2" />
+
+
 
 
