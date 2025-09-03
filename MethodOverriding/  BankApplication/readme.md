@@ -113,30 +113,36 @@ It also validates user input and displays appropriate error messages when incorr
 
 ## 📊 UML Class Diagram
 
-                ┌─────────────────────────┐
-                │       BankAccount        │
-                ├─────────────────────────┤
-                │ - accountHolderName: String
-                │ - accountNumber: String
-                │ - balance: double
-                │ + IFSC_CODE: String      │
-                ├─────────────────────────┤
-                │ + BankAccount(...)       │
-                │ + calculateInterest():void
-                │ + displayAccountDetails():void
-                └───────────▲─────────────┘
-                            │
-        ┌───────────────────┼───────────────────┐
-        │                   │                   │
-┌─────────────────┐ ┌─────────────────┐ ┌─────────────────────┐
-│ SavingsAccount  │ │ CurrentAccount  │ │ FixedDepositAccount │
-├─────────────────┤ ├─────────────────┤ ├─────────────────────┤
-│ - interestRate: │ │ - overdraftLimit│ │ - interestRate:     │
-│   double=4.0    │ │   double=5000.0 │ │   double=6.5        │
-│                 │ │                 │ │ - depositTerm: int  │
-├─────────────────┤ ├─────────────────┤ ├─────────────────────┤
-│ + calculateInter│ │ + calculateInter│ │ + calculateInterest()│
-│ est(): void     │ │ est(): void     │ │ : void              │
-│                 │ │ + checkOverdraft│ │                     │
-│                 │ │ Limit(): void   │ │                     │
-└─────────────────┘ └─────────────────┘ └─────────────────────┘
+```mermaid
+classDiagram
+    class BankAccount {
+      - accountHolderName: String
+      - accountNumber: String
+      - balance: double
+      + IFSC_CODE: String
+      + BankAccount(...)
+      + calculateInterest(): void
+      + displayAccountDetails(): void
+    }
+
+    class SavingsAccount {
+      - interestRate: double = 4.0
+      + calculateInterest(): void
+    }
+
+    class CurrentAccount {
+      - overdraftLimit: double = 5000.0
+      + calculateInterest(): void
+      + checkOverdraftLimit(): void
+    }
+
+    class FixedDepositAccount {
+      - interestRate: double = 6.5
+      - depositTerm: int
+      + calculateInterest(): void
+    }
+
+    BankAccount <|-- SavingsAccount
+    BankAccount <|-- CurrentAccount
+    BankAccount <|-- FixedDepositAccount
+
