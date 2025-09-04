@@ -4,7 +4,7 @@ This project demonstrates the concepts of **Method Overriding** and **Var-args**
 
 ---
 
-## 🎯 Objective
+##  Objective
 - To implement **method overriding** in Java through a payment system.
 - To demonstrate **runtime polymorphism** by processing different types of payments using a common interface (`processPayment()` method).
 - To show the usage of **Var-args** (`Payment... payments`) for handling multiple payments in a single transaction.
