@@ -39,6 +39,4 @@ private Product(int id, String name, double price, int quantity) {
 public String toString() {
 	return "Product [id=" + id + ", name=" + name + ", price=" + calculateTotalAmount()+ ", quantity=" + quantity + "]";
 }
-   
-   
 }
