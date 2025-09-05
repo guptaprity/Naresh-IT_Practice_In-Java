@@ -66,7 +66,7 @@ Discount RS: 32850.0
 
 Final amount RS: 186150.0
 
-💻 Technology Stack
+## 💻 Technology Stack
 
 Language: Java
 
