@@ -54,9 +54,7 @@ You were asked to:
 ---
 ## Sample Output
 
-A Round Vanila Cake Of 1 KG is Ready @ Rs.400.0
-A Round Chocolate Cake Of 4 KG is Ready @ Rs.1600.0
-A Square Pineapple Cake Of 3KG is Ready with Happy Birthday message @ Rs.1200.0
+<img width="1257" height="593" alt="image" src="https://github.com/user-attachments/assets/d23fccc1-5724-4d62-ad52-ac135367a0d1" />
 
 ## UML Class Diagram
 
