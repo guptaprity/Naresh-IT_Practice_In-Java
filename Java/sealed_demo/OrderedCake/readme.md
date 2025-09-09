@@ -1,4 +1,4 @@
-# 🍰 Cake Order Program (Java)
+# 🍰 Cake Order Program
 
 This project is an **abstract class and inheritance based Java program** that demonstrates how to use **abstract classes, constructors, method overriding, and inheritance** to model a cake ordering system.
 
@@ -97,8 +97,13 @@ classDiagram
 ## Concepts Covered
 
 Abstract class & inheritance
+
 Constructor overloading
+
 Method overriding
+
 Use of static fields
+
 Encapsulation with getters & setters
+
 Polymorphism in toString() method
