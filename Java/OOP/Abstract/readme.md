@@ -49,40 +49,65 @@ It showcases:
 
 ---
 📊 Test Cases
+
 ✅ Test Case 1: Digital Product
+
 Select Product Type:
+
 1. Digital Product
+   
 2. Physical Product
+   
 1
 Enter Digital Product Name : Java E Book
+
 Enter Product Price : 1000
+
 Enter Product Category : Electronics
+
 Enter Product License Key : E_BOOK_001
+
 Enter the discount % on final bill: 10
 
 ![WhatsApp Image 2025-09-10 at 22 31 57_123ddd46](https://github.com/user-attachments/assets/e5057995-5d9a-4390-ba25-1f43e4ba552d)
 
 
 ✅ Test Case 2: Physical Product
+
 Select Product Type:
+
 1. Digital Product
+   
 2. Physical Product
+   
 2
+
 Enter Physical Product Name : Mobile
+
 Enter Product Price : 50000
+
 Enter Product Category : Electronics
+
 Enter Product weight : 1
+
 Enter the discount % on final bill: 12
 
 ![WhatsApp Image 2025-09-10 at 22 35 22_bd9e6890](https://github.com/user-attachments/assets/cf124130-01f4-404d-9e47-0cf8538b86a8)
 
 1. Invalid Name
+   
    Product name cannot be empty or null.
+   
 2. Negative Price
+   
    Price cannot be negative.
+   
 3. Null Category
+   
    Category cannot be empty or null.
+   
 4. Invalid Shipping Weight
+   
    Shipping weight must be greater than zero.
 
 
