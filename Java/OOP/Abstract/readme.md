@@ -1,4 +1,4 @@
-# Product Store - Abstract Class & Inheritance (Java)
+# Product Store - Abstract Class & Inheritance
 
 ## 📌 Project Overview
 This project demonstrates the use of **abstract classes** and **hierarchical inheritance** in Java.  
