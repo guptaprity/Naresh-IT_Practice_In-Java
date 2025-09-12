@@ -74,3 +74,6 @@ Each subclass provides its own implementation of calculating area and printing d
 
 --Object-Oriented Programming principles
     
+ ## Output--
+
+ <img width="1361" height="607" alt="image" src="https://github.com/user-attachments/assets/49e4a5c9-d1f9-4d67-aae7-e226eab26fb3" />
