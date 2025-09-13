@@ -1,4 +1,4 @@
-Runtime Polymorphism in Java 🐾
+## Runtime Polymorphism in Java 🐾
 📌 Problem Statement
 
 Create a program to demonstrate runtime polymorphism using method overriding.
@@ -9,7 +9,7 @@ Two child classes Dog and Cat override the method.
 
 Based on user input (dog, cat, or others), print the corresponding sound.
 
-🛠️ Implementation
+## 🛠️ Implementation
 
 Animal → prints "Animal makes a sound".
 
@@ -37,31 +37,31 @@ RuntimePolymorphism/
 
 ▶️ Sample Input / Output
 
-Input
+## Input
 
 dog
 
 
-Output
+## Output
 
 Dog barks
 
 
-Input
+## Input
 
 cat
 
 
-Output
+## Output
 
 Cat meows
 
 
-Input
+## Input
 
 lion
 
 
-Output
+## Output
 
 Animal makes a sound
