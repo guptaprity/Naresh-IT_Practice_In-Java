@@ -3,7 +3,6 @@
 This project demonstrates the **execution order** of different blocks and variables in Java when using **inheritance**.
 
 ---
-
 ## 📘 What I Implemented
 I wrote a Java program with two classes:
 
