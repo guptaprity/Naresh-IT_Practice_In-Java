@@ -9,7 +9,7 @@ I wrote a Java program with two classes:
 
 - **Parent class**
 - **Child class** (extends Parent)
-
+  
 Each class contains:
 - A **static variable** (initialized with a print statement using a helper method).
 - A **static block**.
