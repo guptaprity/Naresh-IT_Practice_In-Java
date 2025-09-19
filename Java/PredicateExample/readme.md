@@ -1,3 +1,6 @@
+
+                                       #CalculationLogic
+
 # Java Predicate Example
 
 This project demonstrates how to use **Java Predicates** with custom logic to test numbers against different conditions.
@@ -34,5 +37,44 @@ Prime Number Checking Logic
 Java Scanner for Input
 
 ---
+                                              #Car Selling Eligibility using Predicate
 
+                                     📌 Problem Statement
+
+Develop a scenario-based Java program using the Functional Interface Predicate<T> to check whether a Car is eligible for sale or not.
+
+Requirements:
+
+Create a record called Car with the following fields:
+
+brand (String)
+
+price (Double)
+
+mileage (Integer)
+
+Create an ELC class CarSelling with a main method.
+
+Use Scanner class for input and create a Car object.
+
+Define a Predicate<Car> to verify car eligibility based on:
+
+Car price should be less than or equal to 5,00,000 (5 lac).
+
+Car mileage should be greater than or equal to 20.
+
+# ✅ Key Concepts Used
+
+Java Record → to define an immutable Car class with less boilerplate.
+
+Functional Interface Predicate<T> → to implement eligibility logic in a functional way.
+
+Scanner Class → to read input from the user.
+
+Lambda Expressions → to define predicates in concise form.
+
+
+
+
+                                              
 
