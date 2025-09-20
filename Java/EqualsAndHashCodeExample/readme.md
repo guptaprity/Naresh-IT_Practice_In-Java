@@ -62,7 +62,6 @@ Books are not equal
 Book1 HashCode: 2301506
 Book2 HashCode: 72409520
 
-
 ## 🚀 How to Run
 ```bash
 javac MainApp2.java
