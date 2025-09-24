@@ -5,8 +5,6 @@ It shows how to **manually throw an exception** and handle it inside a method.
 
 ---
 
-## 📂 Package  
-`ELC`
 
 ---
 
