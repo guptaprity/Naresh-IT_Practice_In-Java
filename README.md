@@ -1,3 +1,7 @@
-##  This Repo is Part of Learning & Practice .Daily I will Try To improve My Self.
+##  # Java Programming Repository
+
+This repository contains **Core Java** programs and examples. It is designed for learning, practicing, and improving Java programming skills.  
+
+
 
 
