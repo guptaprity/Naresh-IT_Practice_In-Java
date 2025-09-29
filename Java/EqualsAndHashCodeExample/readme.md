@@ -1,6 +1,7 @@
 # Book Equality Check 📚
 
 ## 📌 Problem Statement
+
 Create a program in Java to compare two books using `equals()` and `hashCode()`.  
 Two books are considered equal if both their `title` and `author` are the same.
 
