@@ -10,6 +10,7 @@ Two books are considered equal if both their `title` and `author` are the same.
   - `equals(Object obj)` → compares title and author.
   - `hashCode()` → generates hash code based on title and author.  
 - In `MainApp2`, user input is taken for two books and equality is checked.
+  
 
 ## 📂 Folder Structure
 BookEqualityCheck/
