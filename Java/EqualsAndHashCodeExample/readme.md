@@ -30,7 +30,7 @@ BookEqualityCheck/
 3. Title of second book (single word, use `next()`)  
 4. Author of second book (single word, use `next()`)
 
-## 📤 Output Format
+##  Output Format
 - First line: `"Books are equal"` OR `"Books are not equal"`.  
 - Second line: `"Book1 HashCode: <number>"`  
 - Third line: `"Book2 HashCode: <number>"`  
