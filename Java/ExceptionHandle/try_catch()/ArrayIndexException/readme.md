@@ -2,7 +2,6 @@
 
 This project demonstrates **exception handling in Java** using `ArrayIndexOutOfBoundsException`.  
 It prompts the user to enter an array index and safely handles invalid index access using exception handling techniques.  
-
 ---
 
 
