@@ -103,15 +103,4 @@ Entry point of the application.
 <img width="530" height="485" alt="case5" src="https://github.com/user-attachments/assets/45333f76-9d16-4940-893b-70597197f058" />
 
 
-> **Note:** Additional valid and invalid test cases should be tested to ensure robustness.
 
----
-
-## Author
-**Prity Gupta**  
-Batch 49 – Java Programming Assignment  
-
----
-
-## License
-This project is for educational purposes and may be used freely for learning and practice.
