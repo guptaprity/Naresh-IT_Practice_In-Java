@@ -1,4 +1,4 @@
-package com.prity.Custom_Exception;
+package com.prity.Custom_Exception.Custom_Application;
 
 import java.util.Scanner;
 
