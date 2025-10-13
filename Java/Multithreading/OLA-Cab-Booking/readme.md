@@ -5,7 +5,6 @@ This program demonstrates **Multithreading in Java** through a real-world simula
 Each stage of the ride — from requesting a cab to rating the driver — is implemented as a separate **Thread** class.
 
 ---
-
 ## 🧩 Classes Overview
 
 ### 1️⃣ `RideRequest`
