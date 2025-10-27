@@ -1,5 +1,4 @@
 package com.prity.Custom_Exception.Custom_Application;
-
 import java.util.Scanner;
 
 public class ATM {
