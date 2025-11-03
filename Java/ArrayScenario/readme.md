@@ -97,3 +97,4 @@ Special discount: Get 20% off on all courses!
 Limited time offer: Enroll in any two courses and get one course free!
 Enter course ID to enroll: 4
 Course with ID 4 not found.
+
