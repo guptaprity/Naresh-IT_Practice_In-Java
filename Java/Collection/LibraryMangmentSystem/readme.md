@@ -36,14 +36,22 @@ Main class that:
 
 
 Test Cases 1:
+
 -------------
+
 Please Enter your Choice :
+
 1
 Available Books in the Library :
+
   Book[id=101, title=Core Java, author=Mr James]
+  
   Book[id=102, title=Adv Java, author=Mr Robert]
+  
   Book[id=103, title=Head First Java, author=Miss Kathy Sierra]
+  
   Book[id=104, title=Programming in C , author=Mr Denis]
+  
 Please Enter your Choice :
 2
 
@@ -56,15 +64,22 @@ Test Cases 2:
 Please Enter your Choice :
 1
 Available Books in the Library :
+
   Book[id=101, title=Core Java, author=Mr James]
+
   Book[id=102, title=Adv Java, author=Mr Robert]
+
   Book[id=103, title=Head First Java, author=Miss Kathy Sierra]
+  
   Book[id=104, title=Programming in C , author=Mr Denis]
+  
 Please Enter your Choice :
 3
 
  Enter Book id which for Book issue :109
+ 
  Please Enter your Choice :
+ 
  Book with ID 109 not found.
 
 
@@ -73,8 +88,11 @@ Please Enter your Choice :
 ---
 
 ## 🧰 Technologies Used
+
 - **Java (JDK 17+)**
+  
 - **Eclipse IDE**
+  
 - **Collections Framework (Vector)**
 
 ---
@@ -84,6 +102,7 @@ ent-System-Java.
 Description → “Java Library Management System using Collections Framework (Vector).”
 
 Keep it Public → Click Create Repository.
+
 
 🪜 Step 4: Upload from Eclipse (Simple Method)
 Option 1: Use GitHub Desktop (Easiest)
