@@ -239,233 +239,379 @@ Ans-- False
 
 
 Q13) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test 
+
 {
+
     public static void main(String[] args) 
+	
     {
+	
         HashMap<Integer, String> map = new HashMap<>();
+		
         map.put(1, "One");
+		
         map.put(2, "Two");
 
         System.out.println(map.get(3));
+		
     }
+	
 }
 
 a) "null"
+
 b) null
+
 c) Throws NoSuchElementException
+
 d) Compilation error
+
 Ans--B
 
 
 
 Q14) What will be the output of the following code?
+
 import java.util.*;
 
 public class Test
+
 {
+
     public static void main(String[] args) 
+	
     {
+	
         HashMap<String, String> map = new HashMap<>();
+		
         map.put("Java", "James Gosling");
+		
         map.put("HTML", "Tim Berners Lee");
 
         for (Map.Entry<String, String> entry : map.entrySet()) 
+		
 	{
+	
        System.out.print(entry.getKey() + ":" + entry.getValue() + " ");
+	   
         }
+		
     }
+	
 }
+
 Ans-- C
 
 a) Java:James Gosling HTML:Tim Berners Lee
+
 b) HTML:Tim Berners Lee Java:James Gosling
+
 c) Output order not guaranteed
+
 d) Compilation error
+
 ANs--
 
 
 Q15) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test 
+
 {
+
     public static void main(String[] args)
+	
     {
+	
         HashMap<String, Integer> map = new HashMap<>();
+		
         System.out.println(map.put("X", 10));
+		
         System.out.println(map.put("X", 20));
+		
     }
+	
 }
+
 a) 10 then 20
+
 b) null then null
+
 c) null then 10
+
 d) Compilation error
+
 Ans- C
 
 
 
 Q16) When does rehashing happen in a HashMap?
+
 a) When the number of keys exceeds the initial capacity
+
 b) When the number of entries exceeds (capacity * loadFactor)
+
 c) When a null key is inserted
+
 d) When duplicate keys are inserted
+
 Ans- B
 
 
 Q17) Suppose a HashMap has a capacity of 16 and load factor 0.75. After inserting 13 entries, what will be the new capacity?
+
 a) 16
+
 b) 24
+
 c) 32
+
 d) 64
+
 Ans- C
 
 
 Q18) If two unequal objects have the same hashCode, what happens in a HashMap?
+
 a) One object replaces the other
+
 b) Both objects are stored in the same bucket (collision)
+
 c) Compilation error
+
 d) Runtime exception
+
 ANs-- C
 
 
 
 Q19) What happens if hashCode() is overridden but equals() is not?
+
 a) HashMap will behave normally
+
 b) Keys with same hashCode but duplicate Object will be inserted
+
    into the same bucket.
-c) Causes RuntimeException  
-d) Causes NullPointerException 
+   
+c) Causes RuntimeException 
+
+d) Causes NullPointerException
+
 ANs-- B 
 
 
 Q20) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test 
+
 {
     public static void main(String[] args) 
+	
     {
         Map<Integer, String> map = new HashMap<>();
+		
         map.put(1, "Java");
 
         map.computeIfAbsent(1, k -> "Python");
+		
         map.computeIfAbsent(2, k -> "C++");
 
         System.out.println(map);
     }
+	
 }
 
 A) {1=Python, 2=C++}
+
 B) {1=Java, 2=C++}
+
 C) {1=Java}
+
 D) {1=Python}
+
 Ans- B
 
 
 Q21) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test
+
 {
+
     public static void main(String[] args) {
+	
         Map<Integer, String> map = new HashMap<>();
+		
         map.put(1, "Java");
+		
         map.put(2, "Python");
 
         map.computeIfPresent(1, (k, v) -> v + "Script");
+		
         map.computeIfPresent(3, (k, v) -> "C++");
 
         System.out.println(map);
+		
     }
+	
 }
 
 A) {1=JavaScript, 2=Python, 3=C++}
+
 B) {1=JavaScript, 2=Python}
+
 C) {1=Java, 2=Python}
+
 D) {1=Java, 2=Python, 3=C++}
+
+
 ANs- B
 
 
 
 Q22) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test
+
 {
+
     public static void main(String[] args)
+	
     {
+	
       Map<String, Integer> map = new HashMap<>();
+	  
       map.put("A", 5);
+	  
       map.put("B", 10);
 
       map.computeIfPresent("A", (k, v) -> v * 2);
+	  
       map.computeIfPresent("B", (k, v) -> null);
 
       System.out.println(map);
 
      }
+	 
 }
 
 A) {A=10, B=null}
+
 B) {A=10}
+
 C) {A=5}
+
 D) {}
+
 ANs- B
 
 
 Q23) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test
+
 {
+
     public static void main(String[] args)
+	
     {
+	
       Map<Integer, String> map = new HashMap<>();
 
       map.computeIfAbsent(10, k -> null);
+	  
       map.put(20, null);
+	  
       map.computeIfAbsent(20, k -> null);
 
-      System.out.println(map);    
+      System.out.println(map);
+	  
      }
+	 
 }
+
 A) {}
+
 B) {20=null}
+
 C) {10=null, 20=null}
+
 D) {10=null}
+
 Ans- B
 
 
 Q24) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test
+
 {
+
     public static void main(String[] args)
+	
     {
+	
       Map<Integer, String> map = new HashMap<>();
+	  
       map.put(1, "One");
+	  
       map.put(2, "Two");
 
       System.out.println(map.getOrDefault(1, "Default"));
-      System.out.println(map.getOrDefault(3, "Default"));   
+	  
+      System.out.println(map.getOrDefault(3, "Default"));  
+	  
      }
+	 
 }
 
 A) One and null
+
 B) One and Default
+
 C) Default and Default
+
 D) null and Default
+
 ANs- B
 
 
 Q25) What will be the output of the following code?
+
 import java.util.*;
+
 public class Test
+
 {
+
     public static void main(String[] args)
+	
     {
-       Map<String, Integer> map = new HashMap<>();
+     
+	   Map<String, Integer> map = new HashMap<>();
+	   
        map.put("A", null);
 
        System.out.println(map.getOrDefault("A", 10));
+	   
        System.out.println(map.getOrDefault("B", 20));   
+	   
      }
 }
 A) 10 and 20
