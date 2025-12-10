@@ -1,4 +1,4 @@
- ##  Java Programming Repository
+##  Java Programming Repository
 
 ⭐    If you find this helpful, consider starring the repo!*
 
