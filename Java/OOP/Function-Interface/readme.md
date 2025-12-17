@@ -23,14 +23,28 @@ and print the following deatils given in the test cases.
 Test Case for Output :
 ----------------------
 Test case 01 :
+
 --------------
+
 Enter Product Id :101
+
 Enter Product Name :Laptop
+
 Enter Product Price :50000
+
 Final price of the product is :45000.0
+<img width="663" height="891" alt="image" src="https://github.com/user-attachments/assets/452959b6-4aa8-438f-9650-5913746fc15d" />
+
+
 Test case 02 :
 --------------
 Enter Product Id :102
+
 Enter Product Name :Head Phone
+
 Enter Product Price :4000
+
 Final price of the product is :3800.
+
+<img width="764" height="863" alt="image" src="https://github.com/user-attachments/assets/2fbeaaf9-169c-48ec-8fd9-62f32b08b4be" />
+
